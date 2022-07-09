@@ -40,7 +40,7 @@
                 <h1 class="font-weight-normal white-text editable">Make your roof work for you!</h1>
             </div>
             </div>
-                <form class="col-12-middle">
+                <form class="col-12-middle" method="post" action="/success.html">
                     <label for="_name">Name</label>
                     <input type="text" name="_name" id="_name" />
 
@@ -52,6 +52,11 @@
 
                     <label for="_email">Email</label>
                     <input type="text" />    
+
+                    <input type="hidden" name="inbox_key" value="contact_inbox">
+                    <input type="hidden" name="_to" value="info@ntv-solutions.com">
+                    <!--<input type="hidden" name="_cc" value="info@ntv-solutions.com"> -->
+                    <input type="text" name="_gotcha" style="display: none;">
                 
                 <br><button type="SUBMIT"> SUBMIT </button>
                 </form>
