@@ -110,12 +110,48 @@ header{
     background-image:url('images/north-texas-veterans-8.jpg');
     background-size:cover;
     background-position: 42% 25%
-  }
+}
 
 header h3{
     font-size: 5.5rem;
     line-height: 1; 
 
+}
+
+form input,
+form textarea{
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+    border: 3px solid rgb(220,220,220);
+    outline: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus{
+    border-color: #ffbe00;
+}
+
+textarea{
+    min-height: 1rem;
+}
+
+form label{
+    margin-top: 1rem;
+    display: block;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: left;
+}
+
+form button{
+    background-color:#008dbc;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 0;
 }
 
 footer a{
